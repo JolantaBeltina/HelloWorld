@@ -5,7 +5,7 @@ public class Main {
 // int=integer, satur veselu skaitli!
 int vecums = 34;
 int temperatura = -10;
-        System.out.println( "Ziemā ārā būs:" + temperatura);
+        System.out.println( "Ziemā janvārī ārā būs grādi:" + temperatura);
         System.out.println("Mans vecums ir:" + vecums
         );
      int garums =168;
