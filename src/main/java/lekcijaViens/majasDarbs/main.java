@@ -22,7 +22,7 @@ public class main {
         System.out.println("Vai " + ValstsNosaukums +  " ir EU? - " + navEU +";");
         System.out.println("Vai " + ValstsNosaukums +  " ir ASV? - " + irUSA + ";");
         System.out.println( ValstsNosaukums +   " valsts valūta ir: "+ valuta + " ASV dolārs.");
-        System.out.println( ValstsNosaukums +   " ziemeļos apskalo Atlantijas okeāns "+ AtlantijasOkeans + " miljoni km3. ");
+        System.out.println( ValstsNosaukums +   " ziemeļus apskalo Atlantijas okeāns "+ AtlantijasOkeans + " miljoni km3. ");
 
         System.out.println( ValstsNosaukums + " oficiāli Puertoriko Asociētā Valsts ir ASV valdījums Vestindijā."
                 + ValstsPlatiba +
