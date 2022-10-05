@@ -50,5 +50,7 @@ public class FirstClass {
         System.out.println("Rezultāts 6. ir :" + rezultats);
 
 
+
+
     }
 }

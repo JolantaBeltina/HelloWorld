@@ -72,6 +72,17 @@ int temperatura = -10;
         rezultats = 5*(3+7);
         System.out.println("Rezultāts ir :" + rezultats);
 
+
+
+        String koks = "Ozols";
+        int vecumsGados = 25;
+        boolean isdDizosols = true;
+        boolean navDizozols = false;
+        double augstums = 3.5;
+        float platums = 1.3F;
+        System.out.println( koks + " ir audzis pļavā " + vecumsGados + "gadus." +
+                " Ir sasniedzis: " + augstums  + " un platumu  " + platums + " Vai tas ir dižosols?" + isdDizosols);
+
     }
 
 
