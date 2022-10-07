@@ -79,9 +79,9 @@ public class LabDarbsDivi {
         int z = 8;
         System.out.println(x <= y);
 
-        int vecums = 18;
-        System.out.println("Vai cilvēks var balsot(kļūdains variants nav >=)?" + (vecums > 18));
-        System.out.println("Vai cilvēks var balsot?" + (vecums >= 18));
+        int vecums2 = 18;
+        System.out.println("Vai cilvēks var balsot(kļūdains variants nav >=)?" + (vecums2 > 18));
+        System.out.println("Vai cilvēks var balsot?" + (vecums2 >= 18));
 
         // piemērs ar "un" && viesiem jabut TRUE
 
@@ -153,7 +153,7 @@ public class LabDarbsDivi {
         // KODS - LUKSOFORS
         String trafficLight;
         System.out.println("Enter traffic light color (red, yellow or green):");
-        Scanner scanner = new Scanner(System.in);
+
         trafficLight = scanner.nextLine();
 
         if (trafficLight.equals("red")) {
@@ -217,7 +217,7 @@ public class LabDarbsDivi {
         int g = scanner.nextInt();
         if (g > 0) {
             System.out.println(g + " Ir lielāks par nulle");
-        } else
+        }
+
     }
-    }
-    }
+}
