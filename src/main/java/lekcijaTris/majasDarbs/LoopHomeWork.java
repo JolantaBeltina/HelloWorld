@@ -1,4 +1,4 @@
 package lekcijaTris.majasDarbs;
 
-public class majasDarbsTris {
+public class LoopHomeWork {
 }
