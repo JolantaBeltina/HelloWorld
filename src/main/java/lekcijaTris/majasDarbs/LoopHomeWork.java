@@ -161,7 +161,7 @@ public class LoopHomeWork {
 
             public static void ceturtaisUzdevums() {
 
-                
+
 
                 }
 
