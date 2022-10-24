@@ -101,7 +101,7 @@ public class Main {
         // Rinkis
 
         Rinkis rinkisViens = new Rinkis(5);
-       
+
         System.out.println(rinkisViens.rekinatLaukumu());
         System.out.println(rinkisViens.rekinatLinijasGarumu());
 

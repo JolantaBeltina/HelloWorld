@@ -21,14 +21,8 @@ public class House {
 
     // metode atgriež vērtības - konkatinācija!
     public void printHouse() {
-        System.out.println("House" +
-                "                \"stavuDaudzums=\" + stavuDaudzums +\n" +
-                "                \", loguSakits=\" + loguSakits +\n" +
-                "                \", durvjuSkaits=\" + durvjuSkaits +\n" +
-                "                \", adrese='\" + adrese + '\\'' +\n" +
-                "                \", griestuAugstums=\" + griestuAugstums +\n" +
-                "                \", kadrestalaVertiba=\" + kadrestalaVertiba +\n" +
-                "                \", vaiPrivatipasums=\" + vaiPrivatipasums +\n" +
-                "                '}';");
+        System.out.println("Stāvu daudzums:  " + stavuDaudzums + "\n Logu skaits: " + loguSakits
+                + "\n Durvju skaits: " + durvjuSkaits + " \n Adrese: " + adrese + "\n Griestu augstums:" + griestuAugstums
+                + " \n Kadastrālā vērtība:  " + kadrestalaVertiba + "\n Vai ir privātīpašums: " + vaiPrivatipasums);
     }
 }
