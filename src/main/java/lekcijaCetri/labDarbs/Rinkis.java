@@ -16,8 +16,5 @@ public class Rinkis {
     public double rekinatLaukumu(){
         return r*r*PI;
     }
-    public double rekinatLinijasGarumu (){
-
-        return 2* PI *r;
-    }
+    public double rekinatLinijasGarumu (){ return 2* PI * r; }
 }

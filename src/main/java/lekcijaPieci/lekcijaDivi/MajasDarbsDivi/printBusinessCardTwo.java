@@ -1,4 +1,4 @@
-package lekcijaDivi.MajasDarbsDivi;
+package lekcijaPieci.lekcijaDivi.MajasDarbsDivi;
 
 public class printBusinessCardTwo {
 

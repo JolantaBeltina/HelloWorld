@@ -1,4 +1,4 @@
-package lekcijaDivi.labDarbs;
+package lekcijaPieci.lekcijaDivi.labDarbs;
 
 import java.util.Scanner;
 
