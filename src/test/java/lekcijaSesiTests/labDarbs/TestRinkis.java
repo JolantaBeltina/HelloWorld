@@ -2,10 +2,32 @@ package lekcijaSesiTests.labDarbs;
 
 import lekcijaCetri.labDarbs.Rinkis;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class TestRinkis {
 
+    @BeforeTest
+    public void pirmsTesta(){
+        System.out.println("Šī ir BEFORE testa anotācija");
+    }
+    @AfterTest
+    public void pecTesta(){
+        System.out.println("Šī ir AFTER test anotācija");
+    }
+
+
+    @BeforeMethod
+    public void setup(){
+        System.out.println("Šī metode tiek izpildīta pirms katra testa");
+    }
+
+    @BeforeMethod
+    public void pecDarbibas(){
+        System.out.println("Šī metode tiek izpildīta pēc katra testa");
+    }
     @Test
     public void testRekinatLaukumu(){
         System.out.println("Tests, kurš testē kā rēķinās riņķa laukums");
@@ -20,6 +42,8 @@ public class TestRinkis {
         //assert/assertion - pārbaudes
         Assert.assertEquals(actualArea,expectedArea);
     }
+
+
 
      @Test
    public void testRinkaLinijaNulle() {

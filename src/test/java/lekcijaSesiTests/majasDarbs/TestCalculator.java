@@ -42,7 +42,7 @@ public class TestCalculator {
         Assert.assertEquals(100,calculator.multiply(10,10));
         }
 
-    
+
 
 
 
