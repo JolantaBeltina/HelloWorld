@@ -1,19 +1,29 @@
 package lekcijaSeptini.labDarbs;
 
+import org.apache.xmlbeans.impl.xb.xsdschema.Public;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.time.Duration;
+
 public class BaseTest {
-    WebDriver parluks;
+   public WebDriver parluks;
+   public WebDriverWait wait;
+
+
 
 
     @BeforeMethod
     public void setupBrowser(){
         parluks = new ChromeDriver();
+       wait = new WebDriverWait(parluks,Duration.ofSeconds(10));
         parluks.manage().window().maximize();
+        parluks.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         parluks.get("https://www.saucedemo.com/");
+
 
     }
     @AfterMethod
