@@ -4,12 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CardPage {
+public class CardPage extends BasePage{
 
     WebDriver parluks;
     public CardPage (WebDriver parluks) {
-
-        this.parluks = parluks;
+        super(parluks);
     }
 
     private By checkoutButton = By.id("checkout");

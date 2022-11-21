@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
     // definesim privatus lokatorus
 
     private By usernameInputField = By.id("user-name");
@@ -18,26 +18,26 @@ public class LoginPage {
         getLoginButton().click();
     }
     public String getErrorText (){
-       return parluks.findElement(errorTextField).getText();
+       return driver.findElement(errorTextField).getText();
     }
     public WebElement getUsernameField (){
-        return  parluks.findElement(usernameInputField);
+        return  driver.findElement(usernameInputField);
     }
     public WebElement getPasswordField (){
-        return parluks.findElement(passwordInputField);
+        return driver.findElement(passwordInputField);
     }
     public WebElement getLoginButton() {
-        return parluks.findElement(loginButton);
+        return driver.findElement(loginButton);
     }
 
 
 
     // lai atrastu elementu mums vajag draiverri (pārlūku)
 
-    WebDriver parluks;
 
-    public LoginPage(WebDriver parluks) {
-        this.parluks = parluks;
+
+    public LoginPage(WebDriver driver) {
+      super (driver);
 
 
 

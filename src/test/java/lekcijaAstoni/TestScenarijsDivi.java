@@ -24,8 +24,9 @@ public class TestScenarijsDivi extends BaseTest {
         System.out.println("3. Doties uz grozu");
         CardPage grozaLapa = new CardPage(parluks);
         produktulapa.getCardButton().click();
-        Assert.assertEquals(grozaLapa.getpageTitle(),"YOUR CART");
+        Assert.assertEquals(grozaLapa.getPageTitle(),"YOUR CART");
         System.out.println("4. Doties uz Checkout");
+
 
 
 
