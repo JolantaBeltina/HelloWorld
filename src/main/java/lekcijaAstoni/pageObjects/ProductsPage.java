@@ -6,6 +6,12 @@ import org.openqa.selenium.WebElement;
 
 public class ProductsPage extends BasePage{
 
+    private By linkedInButton = By.cssSelector("li.social_linkedin > a");
+    public WebElement getLinkedInButton(){
+        return driver.findElement(linkedInButton);
+    }
+
+
 
     public ProductsPage(WebDriver driver) {
 
